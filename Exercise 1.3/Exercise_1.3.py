@@ -17,7 +17,7 @@ def take_recipe():
 # Starting User Input
 n = int(input("Enter the amount of recipes you would like to add: "))
 
-#stores recipe and cross-checks ingredients list
+#Stores recipe and cross-checks ingredients list
 for i in range(n):
     recipe = take_recipe()
 
