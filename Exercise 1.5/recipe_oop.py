@@ -6,7 +6,7 @@ class Recipe:
     def __init__(self, name):
         self.name = name
         self.ingredients = []
-        self.cooking_time = int(0)
+        self.cooking_time = 0
         self.difficulty = ""
 
     #Getter and Setter for name
